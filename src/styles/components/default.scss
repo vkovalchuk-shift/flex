@@ -1,0 +1,28 @@
+[hidden], .hidden {
+  display: none;
+}
+
+html {
+  min-height: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  border-style: none;
+}
+
+.d-flex {
+  display: flex;
+}
