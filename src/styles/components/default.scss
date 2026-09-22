@@ -15,7 +15,18 @@ html {
 body {
   position: relative;
   overflow-x: hidden;
+  font-family: $font-default;
   margin: 0;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: $color-gray-900;
+
+  @include media('min', 'md') {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 img {
@@ -23,6 +34,22 @@ img {
   border-style: none;
 }
 
+.container {
+  max-width: 1172px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  &-lg {
+    max-width: 1296px;
+  }
+}
+
 .d-flex {
   display: flex;
+}
+
+.icon {
+  font-family: 'Material Symbols Outlined';
+  font-size: 24px;
+  line-height: 1;
 }

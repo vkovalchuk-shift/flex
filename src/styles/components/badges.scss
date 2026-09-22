@@ -1,0 +1,23 @@
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    box-shadow: $default-box-shadow;
+    border-radius: $badge-border-radius;
+    font-size: 12px;
+    line-height: 18px;
+
+    &-primary {
+        background: $color-primary-500;
+        color: $color-white-900;
+    }
+
+    &-secondary {
+        background: $color-primary-200;
+        color: $color-primary-500;
+    }
+
+    &-tertiary {
+        background: $color-primary-200;
+        color: $color-primary-900;
+    }
+}

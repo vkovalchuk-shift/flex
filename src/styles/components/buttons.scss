@@ -1,0 +1,38 @@
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: $transition-default;
+    position: relative;
+
+    &-primary {
+        background: $color-primary-500;
+        box-shadow: $default-box-shadow;
+        border-radius: $border-radius-lg;
+        color: $color-primary-100;
+    }
+
+    &-secondary {
+        background: $color-white-900;
+        box-shadow: $default-box-shadow;
+        border-radius: $border-radius-lg;
+        color: $color-gray-800;
+        border: 1px solid $color-gray-200;
+    }
+
+    &-sm {
+        padding: 8px 16px;
+        line-height: 20px;
+    }
+
+    &-md {
+        padding: 11px 18px;
+        line-height: 24px;
+    }
+
+    &-lg {
+        padding: 14px 28px;
+        line-height: 28px;
+    }
+}
