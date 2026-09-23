@@ -9,15 +9,18 @@
     &-primary {
         background: $color-primary-500;
         color: $color-white-900;
+        margin-bottom: 24px;
     }
 
     &-secondary {
         background: $color-primary-200;
         color: $color-primary-500;
+        margin-bottom: 16px;
     }
 
     &-tertiary {
         background: $color-primary-200;
         color: $color-primary-900;
+        margin-bottom: 17px;
     }
 }

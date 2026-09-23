@@ -27,3 +27,9 @@ $sizes: (
   justify-content: center;
   align-items: center;
 }
+
+@mixin inline-flex-center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

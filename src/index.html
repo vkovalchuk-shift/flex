@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Webpack Starter</title>
+    <title>Flex</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="apple-mobile-web-app-title" content="MyWebSite" />
@@ -18,17 +18,201 @@
   <body>
     <header>
       <div class="container container-lg">
-        Header
+        <div class="inner">
+          <a href="/" class="logo">
+            <img src="./assets/images/logo-dark.svg" alt="Flex">
+          </a>
+  
+          <div class="menu">
+            <nav>
+              <ul>
+                <li>
+                  <a class="header-link" href="#">Product</a>
+                </li>
+                <li>
+                  <a class="header-link" href="#">Features</a>
+                </li>
+                <li>
+                  <a class="header-link" href="#">Pricing</a>
+                </li>
+                <li>
+                  <a class="header-link" href="#">Resources</a>
+                </li>
+              </ul>
+            </nav>
+  
+            <div class="right">
+              <a class="header-link" href="#">Log In</a>
+              <a href="#" class="btn btn-primary btn-sm">Sign Up</a>
+            </div>
+          </div>
+
+          <button class="btn-menu" id="btn-menu">
+            <span></span>
+          </button>
+        </div>
       </div>
     </header>
     <main>
-      <div class="container">
-        Main
-      </div>
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="top">
+            <img src="./assets/images/decoration/cuttet-circles.webp" alt="Cutted Circles Decoration">
+            <img src="./assets/images/decoration/dots.webp" alt="Dots Decoration">
+            <img src="./assets/images/decoration/waves.webp" alt="Waves Decoration">
+            <img src="./assets/images/decoration/dots.webp" alt="Dots Decoration">
+
+            <div class="inner">
+              <span class="badge badge-primary">HEADER</span>
+              <h1>A small business is only as good as its tools.</h1>
+              <div class="description">
+                We’re different. Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.
+              </div>
+              <form>
+                <div class="form-control">
+                  <span class="icon">mail</span>
+                  <input type="email" name="email" id="emailAddress" placeholder="Enter your work email">
+                </div>
+  
+                <button class="btn btn-primary btn-lg">Get early access</button>
+              </form>
+  
+              <small>
+                Start your free 14-day trial today, no credit card required.
+              </small>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Join 4,000+ companies already growing</p>
+
+            <div class="logos">
+              <div class="item">
+                <img src="./assets/images/companies-logos/jiggle.svg" alt="Jiggle">
+              </div>
+              <div class="item">
+                <img src="./assets/images/companies-logos/symtric.svg" alt="Symtric">
+              </div>
+              <div class="item">
+                <img src="./assets/images/companies-logos/wishelp.svg" alt="Wishelp">
+              </div>
+              <div class="item">
+                <img src="./assets/images/companies-logos/resecurb.svg" alt="Resecurb">
+              </div>
+              <div class="item">
+                <img src="./assets/images/companies-logos/welytics.svg" alt="Welytics">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="insights" class="insights">
+        <div class="container">
+          <span class="badge badge-secondary">FEATURES</span>
+          <h3>Gain more insight into how people use your</h3>
+          <div class="description">
+            With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
+          </div>
+
+          <div class="items">
+            <div class="item">
+              <div class="box box-square box-lg">
+                <span class="icon">stacked_email</span>
+              </div>
+              <h5>Measure your performance</h5>
+              <p>
+                Stay connected with your team and make quick decisions wherever  you are. 
+              </p>
+            </div>
+            <div class="item">
+              <div class="box box-square box-lg">
+                <span class="icon">show_chart</span>
+              </div>
+              <h5>Custom analytics</h5>
+              <p>
+                Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place.
+              </p>
+            </div>
+            <div class="item">
+              <div class="box box-square box-lg">
+                <span class="icon">group</span>
+              </div>
+              <h5>Team Management</h5>
+              <p>
+                Our calendar lets you know what is happening with customer and projects so you
+              </p>
+            </div>
+            <div class="item">
+              <div class="box box-square box-lg">
+                <span class="icon">edit_line</span>
+              </div>
+              <h5>Build your website</h5>
+              <p>
+                A tool that lets you build a dream website even if you know nothing about web design or programming. 
+              </p>
+            </div>
+            <div class="item">
+              <div class="box box-square box-lg">
+                <span class="icon">grid_view</span>
+              </div>
+              <h5>Connect multiple apps</h5>
+              <p>
+                The first business platform to bring together all of your products from one place.
+              </p>
+            </div>
+            <div class="item">
+              <div class="box box-square box-lg">
+                <span class="icon">settings</span>
+              </div>
+              <h5>Easy setup</h5>
+              <p>
+                End to End Business Platform, Sales Management, Marketing Automation, Help Desk 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="container">
+          
+        </div>
+      </section>
     </main>
     <footer>
+      <div class="wrapper">
+        <div class="container">
+          <a href="/" class="logo">
+            <img src="./assets/images/logo-light.svg" alt="Flex">
+          </a>
+
+          <ul>
+            <li>
+              <a href="#">Product</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Resources</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+            <li>
+              <a href="#">Privacy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div class="container">
-        Footer
+        <div class="copyright">
+          © 2021 Flex. All rights reserved.
+        </div>
       </div>
     </footer>
   </body>
