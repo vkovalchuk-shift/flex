@@ -1,1 +1,0 @@
-(()=>{"use strict";document.addEventListener("DOMContentLoaded",(function(){var e=document.querySelector("header");document.querySelectorAll("#btn-menu, .header-link").forEach((function(t){t.onclick=function(){e.classList.toggle("menu-active")}})),window.addEventListener("scroll",(function(){e.classList.toggle("is-sticky",window.scrollY>=e.offsetHeight)}))}))})();

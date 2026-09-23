@@ -18,49 +18,51 @@
   <body>
     <header>
       <div class="container container-lg">
-        <div class="inner">
-          <a href="/" class="logo">
-            <img src="./assets/images/logo-dark.svg" alt="Flex">
-          </a>
-  
-          <div class="menu">
-            <nav>
-              <ul>
-                <li>
-                  <a class="header-link" href="#">Product</a>
-                </li>
-                <li>
-                  <a class="header-link" href="#">Features</a>
-                </li>
-                <li>
-                  <a class="header-link" href="#">Pricing</a>
-                </li>
-                <li>
-                  <a class="header-link" href="#">Resources</a>
-                </li>
-              </ul>
-            </nav>
-  
-            <div class="right">
-              <a class="header-link" href="#">Log In</a>
-              <a href="#" class="btn btn-primary btn-sm">Sign Up</a>
-            </div>
-          </div>
+        <a href="/" class="logo">
+          <img src="./assets/images/logo-dark.svg" alt="Flex">
+        </a>
 
-          <button class="btn-menu" id="btn-menu">
-            <span></span>
-          </button>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Product</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Resources</a>
+            </li>
+            <li class="d-hide">
+              <a href="#">Log In</a>
+            </li>
+            <li class="d-hide">
+              <a href="#" class="btn btn-primary btn-sm">Sign Up</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="right">
+          <a class="header-link" href="#">Log In</a>
+          <a href="#" class="btn btn-primary btn-sm">Sign Up</a>
         </div>
+
+        <button class="btn-menu" id="btn-menu">
+          <span></span>
+        </button>
       </div>
     </header>
     <main>
       <section id="hero" class="hero">
         <div class="container">
           <div class="top">
-            <img src="./assets/images/decoration/cuttet-circles.webp" alt="Cutted Circles Decoration">
-            <img src="./assets/images/decoration/dots.webp" alt="Dots Decoration">
-            <img src="./assets/images/decoration/waves.webp" alt="Waves Decoration">
-            <img src="./assets/images/decoration/dots.webp" alt="Dots Decoration">
+            <img class="decor decor-1" src="./assets/images/decoration/cuttet-circles.webp" alt="Cutted Circles Decoration">
+            <img class="decor decor-2" src="./assets/images/decoration/dots.webp" alt="Dots Decoration">
+            <img class="decor decor-3" src="./assets/images/decoration/waves.webp" alt="Waves Decoration">
+            <img class="decor decor-4" src="./assets/images/decoration/dots.webp" alt="Dots Decoration">
 
             <div class="inner">
               <span class="badge badge-primary">HEADER</span>
@@ -69,7 +71,7 @@
                 We’re different. Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.
               </div>
               <form>
-                <div class="form-control">
+                <div class="form-holder">
                   <span class="icon">mail</span>
                   <input type="email" name="email" id="emailAddress" placeholder="Enter your work email">
                 </div>
@@ -83,25 +85,25 @@
             </div>
           </div>
           <div class="bottom">
-            <p>Join 4,000+ companies already growing</p>
+            <div class="p">Join 4,000+ companies already growing</div>
 
-            <div class="logos">
-              <div class="item">
+            <ul class="logos">
+              <li>
                 <img src="./assets/images/companies-logos/jiggle.svg" alt="Jiggle">
-              </div>
-              <div class="item">
+              </li>
+              <li>
                 <img src="./assets/images/companies-logos/symtric.svg" alt="Symtric">
-              </div>
-              <div class="item">
+              </li>
+              <li>
                 <img src="./assets/images/companies-logos/wishelp.svg" alt="Wishelp">
-              </div>
-              <div class="item">
+              </li>
+              <li>
                 <img src="./assets/images/companies-logos/resecurb.svg" alt="Resecurb">
-              </div>
-              <div class="item">
+              </li>
+              <li>
                 <img src="./assets/images/companies-logos/welytics.svg" alt="Welytics">
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -115,7 +117,7 @@
 
           <div class="items">
             <div class="item">
-              <div class="box box-square box-lg">
+              <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">stacked_email</span>
               </div>
               <h5>Measure your performance</h5>
@@ -124,7 +126,7 @@
               </p>
             </div>
             <div class="item">
-              <div class="box box-square box-lg">
+              <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">show_chart</span>
               </div>
               <h5>Custom analytics</h5>
@@ -133,7 +135,7 @@
               </p>
             </div>
             <div class="item">
-              <div class="box box-square box-lg">
+              <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">group</span>
               </div>
               <h5>Team Management</h5>
@@ -142,7 +144,7 @@
               </p>
             </div>
             <div class="item">
-              <div class="box box-square box-lg">
+              <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">edit_line</span>
               </div>
               <h5>Build your website</h5>
@@ -151,7 +153,7 @@
               </p>
             </div>
             <div class="item">
-              <div class="box box-square box-lg">
+              <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">grid_view</span>
               </div>
               <h5>Connect multiple apps</h5>
@@ -160,7 +162,7 @@
               </p>
             </div>
             <div class="item">
-              <div class="box box-square box-lg">
+              <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">settings</span>
               </div>
               <h5>Easy setup</h5>
@@ -173,12 +175,23 @@
       </section>
       <section id="about" class="about">
         <div class="container">
-          
+          <div class="inner">
+            <div class="info">
+              <h3>The fastest way from idea to live site. Period.</h3>
+              <div class="description">
+                Flex is a Small SaaS Business. Flex isn’t a traditional company.
+              </div>
+            </div>
+            <div class="buttons">
+              <button class="btn btn-primary btn-lg">Get Started</button>
+              <button class="btn btn-secondary btn-lg">Learn More</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <div class="wrapper">
+      <div class="top">
         <div class="container">
           <a href="/" class="logo">
             <img src="./assets/images/logo-light.svg" alt="Flex">

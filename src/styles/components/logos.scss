@@ -1,0 +1,23 @@
+.logos {
+    display: flex;
+    justify-content: center;
+    row-gap: 32px;
+    flex-wrap: wrap;
+
+    li {
+        width: 50%;
+        padding: 0 32px;
+
+        @include media('min', 'sm') {
+            width: 33.3%;
+        }
+
+        @include media('min', 'md') {
+            width: 20%;
+        }
+    }
+
+    img {
+        display: block;
+    }
+}

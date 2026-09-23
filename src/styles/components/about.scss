@@ -1,3 +1,27 @@
 .about {
-    
+    padding: 64px 0;
+    color: $color-white-900;
+
+    .inner {
+        background-color: $color-dark-gray-800;
+        border-radius: $border-radius-lg;
+        padding: 63px 98px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .info {
+        max-width: 456px;
+    }
+
+    .description {
+        color: $color-gray-400;
+    }
+
+    .buttons {
+        .btn {
+            min-width: 158px;
+        }
+    }
 }
