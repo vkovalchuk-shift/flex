@@ -1,0 +1,27 @@
+.numbers {
+    padding: 88px 0;
+    text-align: center;
+
+    .description {
+        max-width: 919px;
+        margin: 0 auto 96px auto;
+        color: $color-gray-500;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 32px;
+    }
+
+    li {
+        .title {
+            color: $color-primary-500;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: $color-gray-500;
+        }
+    }
+}
