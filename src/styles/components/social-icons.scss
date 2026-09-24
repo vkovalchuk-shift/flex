@@ -1,0 +1,21 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    li {
+        width: 24px;
+        height: 24px;
+        @include flex-center;
+
+        img {
+            display: block;
+            width: 100%;
+            filter: brightness(0) saturate(100%) invert(65%) sepia(75%) saturate(1139%) hue-rotate(91deg) brightness(89%) contrast(88%);
+        }
+    }
+
+    a {
+
+    }
+}

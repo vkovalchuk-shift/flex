@@ -1,6 +1,10 @@
 .numbers {
-    padding: 88px 0;
+    padding: 64px 0;
     text-align: center;
+
+    @include media('min', 'sm') {
+        padding: 85px 0 119px 0;
+    }
 
     .description {
         max-width: 919px;

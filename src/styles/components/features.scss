@@ -1,0 +1,137 @@
+.features {
+    padding: 48px 0;
+
+    @include media('min', 'md') {
+       padding: 89px 0;
+    }
+
+    .top {
+        margin-bottom: 48px;
+        
+        .description {
+            color: $color-gray-500;
+        }
+    }
+
+    .cols {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 24px;
+
+        @include media('min', 'md') {
+            flex-direction: row;
+        }
+
+        &:has(.image-wrapper:is(:first-child)) {
+            flex-direction: column-reverse;
+
+            @include media('min', 'md') {
+                flex-direction: row;
+            }
+        }
+
+        div:nth-child(1):is(.image-wrapper) {
+            margin-left: 0;
+
+            @include media('min', 'xl') {
+                margin-left: -32px;
+            }
+        }
+    }
+
+    .image-wrapper {
+        width: 100%;
+        max-width: 616px;
+        position: relative;
+
+        @include media('min', 'md') {
+            width: 50%;
+        }
+
+        @include media('min', 'xl') {
+            width: 54%;
+            padding: 32px;
+        }
+
+        img {
+            display: block;
+        }
+
+        .decor {
+            position: absolute;
+
+            &-1 {
+                width: 129px;
+                top: -32px;
+                left: -30px;
+
+                @include media('min', 'xl') {
+                    top: 0;
+                    left: 0;
+                }
+            }
+
+            &-2 {
+                width: 149px;
+                bottom: -12px;
+                right: -16px;
+                filter: brightness(0) saturate(100%) invert(46%) sepia(96%) saturate(1865%) hue-rotate(203deg) brightness(99%) contrast(94%);
+
+                @include media('min', 'xl') {
+                    bottom: -3px;
+                    right: -1px;
+                }
+            }
+        }
+    }
+
+    .info {
+        text-align: center;
+        width: 100%;
+
+        @include media('min', 'md') {
+            text-align: left;
+            width: 45%;
+        }
+
+        @include media('min', 'xl') {
+            width: 40%;
+        }
+
+        h2 {
+            margin-bottom: 32px;
+        }
+
+        .description:not(.p) {
+            margin-bottom: 25px;
+            color: $color-gray-500;
+        }
+
+        .btn {
+            min-width: 128px;
+        }
+    }
+
+    .col {
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+
+            @include media('min', 'md') {
+                align-items: baseline;
+            }
+
+            @include media('min', 'xl') {
+                flex-direction: row;
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 35px;
+            }
+        }   
+    }
+}

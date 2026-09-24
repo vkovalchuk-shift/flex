@@ -1,14 +1,27 @@
 .about {
-    padding: 64px 0;
+    padding: 64px 0 58px 0;
     color: $color-white-900;
 
     .inner {
-        background-color: $color-dark-gray-800;
+        background-color: $color-gray-900;
         border-radius: $border-radius-lg;
-        padding: 63px 98px;
+        padding: 36px;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        text-align: center;
+        gap: 24px;
+
+        @include media('min', 'md') {
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: left;
+        }
+
+        @include media('min', 'xl') {
+            padding: 63px 98px;
+        }
     }
 
     .info {

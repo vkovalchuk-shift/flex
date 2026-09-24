@@ -25,6 +25,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: $color-gray-100;
 
   @include media('min', 'md') {
     font-size: 20px;
@@ -70,6 +71,10 @@ input {
   max-width: 1172px;
   margin: 0 auto;
   padding: 0 16px;
+
+  &-sm {
+    max-width: 977px;
+  }
 
   &-lg {
     max-width: 1296px;
