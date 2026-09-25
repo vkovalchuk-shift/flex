@@ -9,7 +9,7 @@
         padding: 0 32px;
 
         @include media('min', 'sm') {
-            width: 33.3%;
+            width: 33.33%;
         }
 
         @include media('min', 'md') {

@@ -19,11 +19,15 @@
 
         @include media('min', 'md') {
             flex-direction: row;
+            gap: 88px 24px;
+        }
+
+        @include media('min', 'lg') {
             gap: 182px 24px;
         }
     }
 
-    .decorated-image {
+    .banner-image {
         max-width: 616px;
 
         img {
