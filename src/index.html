@@ -8,11 +8,12 @@
     <meta name="apple-mobile-web-app-title" content="MyWebSite" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
   </head>
 
   <body>
@@ -25,21 +26,21 @@
         <nav>
           <ul>
             <li>
-              <a href="#">Product</a>
+              <a href="#how-it-works">Product</a>
             </li>
             <li>
-              <a href="#">Features</a>
+              <a href="#features">Features</a>
             </li>
             <li>
-              <a href="#">Pricing</a>
+              <a href="#application">Pricing</a>
             </li>
             <li>
-              <a href="#">Resources</a>
+              <a href="#contact">Resources</a>
             </li>
-            <li class="d-hide">
+            <li class="d-md-hide">
               <a href="#">Log In</a>
             </li>
-            <li class="d-hide">
+            <li class="d-md-hide">
               <a href="#" class="btn btn-primary btn-sm">Sign Up</a>
             </li>
           </ul>
@@ -65,11 +66,14 @@
             <img class="decor decor-4" src="./assets/images/decoration/dots.webp" alt="Dots Decoration">
 
             <div class="inner">
-              <span class="badge badge-primary">HEADER</span>
-              <h1>A small business is only as good as its tools.</h1>
-              <div class="description">
-                We’re different. Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.
+              <div class="title-block title-block-dark">
+                <span class="badge badge-primary">HEADER</span>
+                <h1>A small business is only as good as its tools.</h1>
+                <p>
+                  We’re different. Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.
+                </p>
               </div>
+
               <form>
                 <div class="form-holder">
                   <span class="icon">mail</span>
@@ -85,7 +89,7 @@
             </div>
           </div>
           <div class="bottom">
-            <div class="p">Join 4,000+ companies already growing</div>
+            <div class="title">Join 4,000+ companies already growing</div>
 
             <ul class="logos">
               <li>
@@ -109,10 +113,12 @@
       </section>
       <section id="insights" class="insights">
         <div class="container">
-          <span class="badge badge-secondary">FEATURES</span>
-          <h3>Gain more insight into how people use your</h3>
-          <div class="description">
-            With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
+          <div class="title-block">
+            <span class="badge badge-secondary">FEATURES</span>
+            <h3>Gain more insight into how people use your</h3>
+            <p>
+              With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
+            </p>
           </div>
 
           <div class="row">
@@ -121,54 +127,54 @@
                 <span class="icon">stacked_email</span>
               </div>
               <h5>Measure your performance</h5>
-              <p>
+              <div class="subtitle">
                 Stay connected with your team and make quick decisions wherever  you are. 
-              </p>
+              </div>
             </div>
             <div class="item">
               <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">show_chart</span>
               </div>
               <h5>Custom analytics</h5>
-              <p>
+              <div class="subtitle">
                 Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place.
-              </p>
+              </div>
             </div>
             <div class="item">
               <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">group</span>
               </div>
               <h5>Team Management</h5>
-              <p>
+              <div class="subtitle">
                 Our calendar lets you know what is happening with customer and projects so you
-              </p>
+              </div>
             </div>
             <div class="item">
               <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">edit_line</span>
               </div>
               <h5>Build your website</h5>
-              <p>
+              <div class="subtitle">
                 A tool that lets you build a dream website even if you know nothing about web design or programming. 
-              </p>
+              </div>
             </div>
             <div class="item">
               <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">grid_view</span>
               </div>
               <h5>Connect multiple apps</h5>
-              <p>
+              <div class="subtitle">
                 The first business platform to bring together all of your products from one place.
-              </p>
+              </div>
             </div>
             <div class="item">
               <div class="icon-box icon-box-square icon-box-lg">
                 <span class="icon">settings</span>
               </div>
               <h5>Easy setup</h5>
-              <p>
+              <div class="subtitle">
                 End to End Business Platform, Sales Management, Marketing Automation, Help Desk 
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -177,9 +183,11 @@
         <div class="container">
           <div class="inner">
             <div class="info">
-              <h3>The fastest way from idea to live site. Period.</h3>
-              <div class="description">
-                Flex is a Small SaaS Business. Flex isn’t a traditional company.
+              <div class="title-block title-block-dark">                
+                <h3>The fastest way from idea to live site. Period.</h3>
+                <p>
+                  Flex is a Small SaaS Business. Flex isn’t a traditional company.
+                </p>
               </div>
             </div>
             <div class="buttons">
@@ -192,13 +200,15 @@
       <section id="features" class="features">
         <div class="container">
           <div class="top">
-            <span class="badge badge-secondary">FEATURES</span>
-            <h3>Gain more insight into how people use your</h3>
-            <div class="description">
-              With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
+            <div class="title-block text-left">
+              <span class="badge badge-secondary">FEATURES</span>
+              <h3>Gain more insight into how people use your</h3>
+              <p>
+                With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
+              </p>
             </div>
           </div>
-          <div class="cols">
+          <div class="row">
             <div class="info">
               <div class="col">
                   <div class="item">
@@ -207,9 +217,7 @@
                     </div>
                     <div class="text">
                       <h5>Measure your performance</h5>
-                      <div class="description p">
-                        Stay connected with your team and make quick decisions wherever you are. 
-                      </div>
+                      Stay connected with your team and make quick decisions wherever you are. 
                     </div>
                   </div>
                   <div class="item">
@@ -218,9 +226,7 @@
                     </div>
                     <div class="text">
                       <h5>Build your website</h5>
-                      <div class="description p">
-                        A tool that lets you build a dream website even if you know nothing about web design or programming.
-                      </div>
+                      A tool that lets you build a dream website even if you know nothing about web design or programming.
                     </div>
                   </div>
                   <div class="item">
@@ -229,9 +235,7 @@
                     </div>
                     <div class="text">
                       <h5>Connect multiple apps</h5>
-                      <div class="description p">
-                        The first business platform to bring together all of your products from one place.
-                      </div>
+                      The first business platform to bring together all of your products from one place.
                     </div>
                   </div>
               </div>
@@ -241,36 +245,28 @@
               <img class="decor decor-1" src="./assets/images/decoration/circles.webp" alt="Circels">
               <img class="decor decor-2" src="./assets/images/decoration/dots.webp" alt="Dots">
             </div>
-          </div>
-        </div>
-      </section>
-      <section id="features" class="features">
-        <div class="container">
-          <div class="cols">
             <div class="image-wrapper">
               <img src="./assets/images/workspace.webp" alt="Workspace">
               <img class="decor decor-1" src="./assets/images/decoration/circles.webp" alt="Circels">
               <img class="decor decor-2" src="./assets/images/decoration/dots.webp" alt="Dots">
             </div>
             <div class="info">
-              <span class="badge badge-secondary">FEATURES</span>
-              <h2>Gain more insight into how people use your</h2>
-              <div class="description">
-                With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
+              <div class="title-block">
+                <span class="badge badge-secondary">FEATURES</span>
+                <h2>Gain more insight into how people use your</h2>
+                <p>
+                  With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
+                </p>
               </div>
               <button class="btn btn-primary btn-md">Get Started</button>
             </div>
-          </div>
-        </div>
-      </section>
-      <section id="features" class="features">
-        <div class="container">
-          <div class="cols">
             <div class="info">
-              <span class="badge badge-secondary">FEATURES</span>
-              <h2>Gain more insight into how people use your</h2>
-              <div class="description">
-                With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
+              <div class="title-block">
+                <span class="badge badge-secondary">FEATURES</span>
+                <h2>Gain more insight into how people use your</h2>
+                <p>
+                  With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.
+                </p>
               </div>
               <button class="btn btn-primary btn-md">Get Started</button>
             </div>
@@ -284,28 +280,30 @@
       </section>
       <section id="numbers" class="numbers">
         <div class="container">
-          <span class="badge badge-secondary">NUMBERS</span>
-          <h2>We believe in the power of data</h2>
-          <div class="description">
-             Flex is the only business platform that lets you run your business on one platform, seamlessly across all digital channels.
+          <div class="title-block">
+            <span class="badge badge-secondary">NUMBERS</span>
+            <h2>We believe in the power of data</h2>
+            <p>
+               Flex is the only business platform that lets you run your business on one platform, seamlessly across all digital channels.
+            </p>
           </div>
 
           <ul>
             <li>
               <div class="title h2">235.000</div>
-              <div class="subtitle">Projects completed</div>
+              <div class="subtitle p">Projects completed</div>
             </li>
             <li>
               <div class="title h2">$10m</div>
-              <div class="subtitle">APR</div>
+              <div class="subtitle p">APR</div>
             </li>
             <li>
               <div class="title h2">+50.000</div>
-              <div class="subtitle">Hours Saved Annually</div>
+              <div class="subtitle p">Hours Saved Annually</div>
             </li>
             <li>
               <div class="title h2">3.500</div>
-              <div class="subtitle">Unique Users</div>
+              <div class="subtitle p">Unique Users</div>
             </li>
           </ul>
         </div>
@@ -315,14 +313,14 @@
         <div class="inner">
           <div class="container">
             <div class="top">
-              <div class="left">
+              <div class="title-block title-block-dark">
                 <span class="badge badge-tertiary">HOW IT WORKS</span>
                 <h2>
                   Gain more insight into how people use your
                 </h2>
-                <div class="description">
+                <p>
                   With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage your business in one secure platform.
-                </div>
+                </p>
               </div>
               <div class="right">
                 <img src="./assets/images/speaker.webp" alt="Speaker">
@@ -338,7 +336,7 @@
                   <h6>
                     Measure your performance
                   </h6>
-                  <div class="p">
+                  <div class="subtitle">
                     Stay connected with your team and make quick decisions wherever you are.
                   </div>
                 </li>
@@ -347,7 +345,7 @@
                   <h6>
                     Custom analytics
                   </h6>
-                  <div class="p">
+                  <div class="subtitle">
                     Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place.
                   </div>
                 </li>
@@ -356,7 +354,7 @@
                   <h6>
                     Team Management
                   </h6>
-                  <div class="p">
+                  <div class="subtitle">
                     Our calendar lets you know what is happening with customer and projects so you
                   </div>
                 </li>
@@ -365,7 +363,7 @@
                   <h6>
                     Build your website
                   </h6>
-                  <div class="p">
+                  <div class="subtitle">
                     A tool that lets you build a dream website even if you know nothing about web design or programming.
                   </div>
                 </li>
@@ -374,7 +372,7 @@
                   <h6>
                     Connect multiple apps
                   </h6>
-                  <div class="p">
+                  <div class="subtitle">
                     The first business platform to bring together all of your products from one place.
                   </div>
                 </li>
@@ -383,7 +381,7 @@
                   <h6>
                     Easy setup
                   </h6>
-                  <div class="p">
+                  <div class="subtitle">
                     End to End Business Platform, Sales Management, Marketing Automation, Help Desk
                   </div>
                 </li>
@@ -395,14 +393,15 @@
       </section>
       <section id="application" class="application">
         <div class="container container-sm">
-          <span class="badge badge-secondary">Application</span>
-          <h3>Great work starts with your app</h3>
-          <div class="image-wrapper">
-            <img src="./assets/images/laptop.webp" alt="Laptop">
+          <div class="title-block">
+            <span class="badge badge-secondary">Application</span>
+            <h3>Great work starts with your app</h3>
           </div>
-          <div class="description">
+
+          <img src="./assets/images/laptop.webp" alt="Laptop">
+          <p>
             Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do you best work.
-          </div>
+          </p>
           <div class="buttons">
             <button class="btn btn-primary btn-lg">Learn More</button>
             <button class="btn btn-secondary btn-lg">About Us</button>
@@ -411,25 +410,28 @@
       </section>
       <section id="contact" class="contact">
         <div class="container">
-          <span class="badge badge-secondary">CONTACT</span>
-          <h2>Let’s stay connected</h2>
-          <div class="description">
-            It's never been easier to get in touch with Flex. Call us, use our live chat widget or email and we'll get back to you as soon as possible!
+          <div class="title-block">
+            <span class="badge badge-secondary">CONTACT</span>
+            <h2>Let’s stay connected</h2>
+            <p>
+              It's never been easier to get in touch with Flex. Call us, use our live chat widget or email and we'll get back to you as soon as possible!
+            </p>
           </div>
+
           <div class="row">
             <div class="item">
               <div class="icon-box icon-box-circle icon-box-sm">
                 <span class="icon">drafts</span>
               </div>
               <h4>Email</h4>
-              <a href="mailto:contact@flex.co">contact@flex.co</a>
+              <a class="p" href="mailto:contact@flex.co">contact@flex.co</a>
             </div>
             <div class="item">
               <div class="icon-box icon-box-circle icon-box-sm">
                 <span class="icon">phone_in_talk</span>
               </div>
               <h4>Phone</h4>
-              <a href="tel:+7-843-672-431">+7-843-672-431</a>
+              <a class="p" href="tel:+7-843-672-431">+7-843-672-431</a>
             </div>
             <div class="item">
               <div class="icon-box icon-box-circle icon-box-sm">
@@ -480,31 +482,31 @@
 
           <ul>
             <li>
-              <a href="#">Product</a>
+              <a href="#application">Product</a>
             </li>
             <li>
-              <a href="#">Features</a>
+              <a href="#application">Features</a>
             </li>
             <li>
-              <a href="#">Pricing</a>
+              <a href="#application">Pricing</a>
             </li>
             <li>
-              <a href="#">Resources</a>
+              <a href="#application">Resources</a>
             </li>
             <li>
-              <a href="#">Careers</a>
+              <a href="#application">Careers</a>
             </li>
             <li>
-              <a href="#">Help</a>
+              <a href="#application">Help</a>
             </li>
             <li>
-              <a href="#">Privacy</a>
+              <a href="#application">Privacy</a>
             </li>
           </ul>
         </div>
       </div>
       <div class="container">
-        <div class="copyright">
+        <div class="p">
           © 2021 Flex. All rights reserved.
         </div>
       </div>

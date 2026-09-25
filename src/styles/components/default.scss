@@ -19,18 +19,13 @@ body {
   margin: 0;
   font-weight: 500;
   font-style: normal;
-  font-size: 18px;
-  line-height: 28px;
-  color: $color-gray-900;
+  font-size: 16px;
+  line-height: 24px;
+  color: $color-gray-500;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: $color-gray-100;
-
-  @include media('min', 'md') {
-    font-size: 20px;
-    line-height: 30px;
-  }
 }
 
 main {
@@ -86,7 +81,7 @@ input {
 }
 
 @include media('min', 'md') {
-  .d-hide {
+  .d-md-hide {
     display: none;
   }
 }

@@ -1,6 +1,12 @@
 .how-it-works {
     color: $color-white-900;
 
+    .title-block {
+        p {
+            margin-bottom: 0;
+        }
+    }
+
     .decor {
         display: block;
 
@@ -30,16 +36,8 @@
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         }
 
-        .left {
-
-        }
-
         h2 {
             margin-bottom: 29px;
-        }
-
-        .description {
-            color: $color-gray-400;
         }
 
         .right {
@@ -73,6 +71,10 @@
 
         li {
             counter-increment: counter;
+            
+            h6 {
+                color: $color-white-900;
+            }
         }
 
         .icon-box {
@@ -82,7 +84,7 @@
             }
         }
 
-        .p {
+        .subtitle {
             color: $color-gray-400;
         }
     }

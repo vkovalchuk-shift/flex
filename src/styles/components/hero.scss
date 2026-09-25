@@ -63,20 +63,19 @@
         }        
     }
 
+    .title-block {
+        p {
+            @include media('min', 'lg') {
+                padding: 0 12px;
+            }
+        }
+    }
+
     .inner {
         padding: 16px;
         max-width: 815px;
         text-align: center;
         position: relative;
-    }
-
-    .description {
-        color: $color-gray-400;
-        margin-bottom: 26px;
-
-        @include media('min', 'lg') {
-            padding: 0 12px;
-        }
     }
 
     form {
@@ -135,7 +134,7 @@
     .bottom {
         text-align: center;
 
-        .p {
+        .title {
             color: $color-gray-300;
             margin-bottom: 33px;
         }

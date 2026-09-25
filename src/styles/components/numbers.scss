@@ -6,10 +6,10 @@
         padding: 85px 0 119px 0;
     }
 
-    .description {
-        max-width: 919px;
-        margin: 0 auto 96px auto;
-        color: $color-gray-500;
+    .title-block {
+        p {
+            margin-bottom: 96px;
+        }
     }
 
     ul {

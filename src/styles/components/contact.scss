@@ -1,5 +1,5 @@
 .contact {
-    padding: 89px 0 168px 0;
+    padding: 64px 0;
     background: linear-gradient(
         to bottom,
         $color-gray-100 0%,
@@ -23,11 +23,16 @@
         );
     }
 
-    .description {
-        color: $color-gray-500;
-        max-width: 919px;
+    @include media('min', 'lg') {
+        padding: 91px 0 168px 0;
+    }
+
+    .title-block {
         margin-bottom: 64px;
-        margin: 0 auto 64px auto;
+        
+        p {
+            margin-bottom: 0;
+        }
     }
 
     .row {

@@ -37,10 +37,6 @@ header {
             z-index: 1;
             overflow: auto;
         }
-
-        @include media('min', 'xl') {
-            gap: 267px;
-        }
     }
 
     ul {

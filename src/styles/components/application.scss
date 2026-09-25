@@ -1,23 +1,18 @@
 .application {
-    padding: 79px 0;
+    padding: 82px 0;
     text-align: center;
 
-    h3 {
+    .title-block {
         margin-bottom: 40px;
     }
 
-    .image-wrapper {
-        margin-bottom: 40px;
-
-        img {
-            display: block;
-        }
+    img {
+        display: block;
+        margin-bottom: 40px
     }
 
-    .description {
+    p {
         max-width: 942px;
-        color: $color-gray-500;
-        margin-bottom: 24px;
     }
 
     .btn {

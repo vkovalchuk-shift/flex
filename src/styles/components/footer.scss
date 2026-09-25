@@ -22,14 +22,9 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
         column-gap: 48px;
         row-gap: 16px;
         flex-wrap: wrap;
-
-        @include media('min', 'md') {
-            flex-direction: row;
-        }
     }
 
     li {
@@ -44,10 +39,5 @@ footer {
                 color: $color-primary-500;
             }
         }
-    }
-
-    .copyright {
-        font-size: 20px;
-        line-height: 30px;
     }
 }

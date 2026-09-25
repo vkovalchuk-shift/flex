@@ -2,42 +2,24 @@
     padding: 48px 0;
 
     @include media('min', 'md') {
-       padding: 89px 0;
+       padding: 91px 0;
     }
 
     .top {
         margin-bottom: 48px;
-        
-        .description {
-            color: $color-gray-500;
-        }
     }
 
-    .cols {
+    .row {
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        gap: 24px;
+        gap: 48px;
+        flex-wrap: wrap;
 
         @include media('min', 'md') {
             flex-direction: row;
-        }
-
-        &:has(.image-wrapper:is(:first-child)) {
-            flex-direction: column-reverse;
-
-            @include media('min', 'md') {
-                flex-direction: row;
-            }
-        }
-
-        div:nth-child(1):is(.image-wrapper) {
-            margin-left: 0;
-
-            @include media('min', 'xl') {
-                margin-left: -32px;
-            }
+            gap: 182px 24px;
         }
     }
 
@@ -53,6 +35,14 @@
         @include media('min', 'xl') {
             width: 54%;
             padding: 32px;
+        }
+
+        &:nth-of-type(odd) {
+            margin-left: 0;
+
+            @include media('min', 'xl') {
+                margin-left: -32px;
+            }
         }
 
         img {
@@ -104,11 +94,6 @@
             margin-bottom: 32px;
         }
 
-        .description:not(.p) {
-            margin-bottom: 25px;
-            color: $color-gray-500;
-        }
-
         .btn {
             min-width: 128px;
         }
@@ -120,6 +105,7 @@
             flex-direction: column;
             align-items: center;
             gap: 24px;
+            color: $color-gray-500;
 
             @include media('min', 'md') {
                 align-items: baseline;

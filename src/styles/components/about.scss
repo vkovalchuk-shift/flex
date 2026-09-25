@@ -24,12 +24,14 @@
         }
     }
 
-    .info {
-        max-width: 456px;
+    .title-block {
+        p {
+            margin-bottom: 0;
+        }
     }
 
-    .description {
-        color: $color-gray-400;
+    .info {
+        max-width: 456px;
     }
 
     .buttons {

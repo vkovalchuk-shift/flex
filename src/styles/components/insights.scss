@@ -3,14 +3,15 @@
     text-align: center;
 
     @include media('min', 'md') {
-        padding: 81px 0 100px 0;
+        padding: 87px 0 100px 0;
     }
 
-    .description {
-        max-width: 919px;
-        color: $color-gray-500;
-        margin: 0 auto;
+    .title-block {
         margin-bottom: 48px;
+        
+        p {
+            margin-bottom: 0;
+        }
     }
 
     .row {
@@ -22,7 +23,7 @@
     .item {
         padding: 32px 0;
 
-        p {
+        .subtitle {
             padding: 0 32px;
             color: $color-gray-500;
         }

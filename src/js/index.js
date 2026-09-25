@@ -2,7 +2,7 @@ import "../styles/main.scss";
 
 document.addEventListener('DOMContentLoaded', function () {
     const header = document.querySelector('header');
-    const menuTriggers = document.querySelectorAll('#btn-menu, .header-link');
+    const menuTriggers = document.querySelectorAll('#btn-menu, nav li a');
 
     menuTriggers.forEach(menuTrigger => {
         menuTrigger.onclick = function() {
