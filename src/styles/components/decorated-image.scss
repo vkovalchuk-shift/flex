@@ -1,0 +1,45 @@
+.decorated-image {
+    width: 100%;
+    max-width: 814px;
+    position: relative;
+
+    @include media('min', 'xl') {
+        padding: 32px;
+    }
+
+    img {
+        display: block;
+        
+        &:not(.decor) {
+            border-radius: $border-radius-lg;
+            object-fit: cover;
+        }
+    }
+
+    .decor {
+        position: absolute;
+
+        &-1 {
+            width: 129px;
+            top: -32px;
+            left: -30px;
+
+            @include media('min', 'xl') {
+                top: 0;
+                left: 0;
+            }
+        }
+
+        &-2 {
+            width: 149px;
+            bottom: -12px;
+            right: -16px;
+            filter: brightness(0) saturate(100%) invert(46%) sepia(96%) saturate(1865%) hue-rotate(203deg) brightness(99%) contrast(94%);
+
+            @include media('min', 'xl') {
+                bottom: -3px;
+                right: -1px;
+            }
+        }
+    }
+}

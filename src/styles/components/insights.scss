@@ -6,11 +6,17 @@
         padding: 87px 0 100px 0;
     }
 
-    .title-block {
-        margin-bottom: 48px;
+    p {
+        margin: 0 auto 48px auto;
+    }
+
+    .decorated-image {
+        margin: 0 auto 41px auto;
         
-        p {
-            margin-bottom: 0;
+        img {
+            &:not(.decor) {
+                aspect-ratio: 3 / 2;
+            }
         }
     }
 
@@ -25,7 +31,7 @@
 
         .subtitle {
             padding: 0 32px;
-            color: $color-gray-300;
+            color: var(--section-text-color);
         }
     }
 }

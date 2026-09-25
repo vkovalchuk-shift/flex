@@ -1,10 +1,8 @@
 .how-it-works {
     color: $color-light-100;
 
-    .title-block {
-        p {
-            margin-bottom: 0;
-        }
+    p {
+        margin-bottom: 0;
     }
 
     .decor {
@@ -16,7 +14,6 @@
     }
 
     .inner {
-        background-color: $color-gray-500;
         margin-bottom: -1px;
         padding: 48px 0;
 
@@ -61,31 +58,24 @@
         }
     }
 
-    .bottom {
-        ul {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 32px;
-            counter-reset: counter;
-        }
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 32px;
+        counter-reset: counter;
 
         li {
             counter-increment: counter;
-            
-            h6 {
-                color: $color-light-100;
-            }
         }
 
         .icon-box {
-            color: $color-gray-500;
             &::before {
                 content: counter(counter);
             }
         }
 
         .subtitle {
-            color: $color-gray-200;
+            color: var(--section-text-color);
         }
     }
 }

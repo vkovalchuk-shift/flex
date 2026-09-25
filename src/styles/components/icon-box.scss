@@ -1,5 +1,5 @@
 .icon-box {
-    color: $color-light-100;
+    color: var(--icon-box-color);
     background: $color-primary-500;
     @include inline-flex-center;
     flex-shrink: 0;

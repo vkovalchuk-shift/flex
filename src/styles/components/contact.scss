@@ -27,12 +27,8 @@
         padding: 91px 0 168px 0;
     }
 
-    .title-block {
-        margin-bottom: 64px;
-        
-        p {
-            margin-bottom: 0;
-        }
+    p {
+        margin: 0 auto 64px auto;
     }
 
     .row {
@@ -60,7 +56,7 @@
         }
 
         a {
-            color: $color-gray-300;
+            color: var(--section-text-color);
             text-decoration: none;
             transition: $transition-default;
 

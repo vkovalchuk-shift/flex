@@ -10,7 +10,6 @@
     .top {
         min-height: 568px;
         border-radius: $border-radius-lg;
-        background-color: $color-gray-500;
         margin-bottom: 88px;
         color: $color-light-100;
         @include flex-center;
@@ -63,11 +62,9 @@
         }        
     }
 
-    .title-block {
-        p {
-            @include media('min', 'lg') {
-                padding: 0 12px;
-            }
+    p {
+        @include media('min', 'lg') {
+            padding: 0 12px;
         }
     }
 
@@ -128,7 +125,7 @@
     small {
         font-size: 14px;
         line-height: 1.43;
-        color: $color-gray-200;
+        color: var(--section-text-color);
     }
 
     .bottom {

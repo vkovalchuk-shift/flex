@@ -20,7 +20,7 @@ body {
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: $color-gray-300;
   min-height: 100vh;
   display: flex;
@@ -90,4 +90,29 @@ input {
   font-family: 'Material Symbols Outlined';
   font-size: 24px;
   line-height: 1;
+}
+
+:root {
+  --section-heading-color: #{$color-gray-500};
+  --section-text-color: #{$color-gray-300};
+  --icon-box-color: #{$color-light-100};
+  --header-color: #{$color-gray-300};
+  --logo-filter: none;
+}
+
+.dark-theme {
+  --section-heading-color: #{$color-light-100};
+  --section-text-color: #{$color-gray-200};
+  --icon-box-color: #{$color-gray-500};
+  --header-color: #{$color-light-100};
+  --logo-filter: brightness(0) saturate(100%)
+         invert(62%) sepia(89%)
+         saturate(514%)
+         hue-rotate(93deg)
+         brightness(93%)
+         contrast(91%);
+  
+  &:not(header) {
+    background-color: $color-gray-500;
+  }
 }
