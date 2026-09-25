@@ -1,5 +1,5 @@
 .how-it-works {
-    color: $color-white-900;
+    color: $color-light-100;
 
     .title-block {
         p {
@@ -16,7 +16,7 @@
     }
 
     .inner {
-        background-color: $color-gray-900;
+        background-color: $color-gray-500;
         margin-bottom: -1px;
         padding: 48px 0;
 
@@ -43,7 +43,7 @@
         .right {
             max-width: 554px;
             margin: 0 auto;
-            border-radius: $border-radius-xl;
+            border-radius: $border-radius-lg;
             overflow: hidden;
             position: relative;
 
@@ -73,19 +73,19 @@
             counter-increment: counter;
             
             h6 {
-                color: $color-white-900;
+                color: $color-light-100;
             }
         }
 
         .icon-box {
-            color: $color-gray-900;
+            color: $color-gray-500;
             &::before {
                 content: counter(counter);
             }
         }
 
         .subtitle {
-            color: $color-gray-400;
+            color: $color-gray-200;
         }
     }
 }

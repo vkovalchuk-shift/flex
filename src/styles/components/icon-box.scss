@@ -1,15 +1,15 @@
 .icon-box {
-    color: $color-white-900;
+    color: $color-light-100;
     background: $color-primary-500;
     @include inline-flex-center;
     flex-shrink: 0;
 
     &-square {
-        border-radius: $border-radius-lg;
+        border-radius: $border-radius-sm;
     }
 
     &-circle {
-        border-radius: 50%;
+        border-radius: $border-radius-rounded;
     }
 
     &-sm {

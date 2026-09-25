@@ -2,13 +2,13 @@
     display: inline-block;
     padding: 2px 8px;
     box-shadow: $default-box-shadow;
-    border-radius: $badge-border-radius;
+    border-radius: $border-radius-xl;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 1.5;
 
     &-primary {
         background: $color-primary-500;
-        color: $color-white-900;
+        color: $color-light-100;
         margin-bottom: 24px;
     }
 

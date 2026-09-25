@@ -2,17 +2,17 @@
     padding: 20px 0;
     margin-bottom: 44px;
 
-    @include media('min', 'md') {
-        padding: 20px 00;
+    @include media('min', 'lg') {
+        padding: 20px 0;
         margin-bottom: 186px;
     }
 
     .top {
         min-height: 568px;
-        border-radius: 24px;
-        background-color: $color-gray-900;
+        border-radius: $border-radius-lg;
+        background-color: $color-gray-500;
         margin-bottom: 88px;
-        color: $color-white-900;
+        color: $color-light-100;
         @include flex-center;
         position: relative;
         overflow: hidden;
@@ -98,7 +98,7 @@
             position: relative;
 
             .icon {
-                color: $color-gray-500;
+                color: $color-gray-300;
                 width: 24px;
                 font-size: 20px;
                 position: absolute;
@@ -116,7 +116,7 @@
         input::placeholder {
             font-weight: 400;
             font-size: 16px;
-            line-height: 24px;
+            line-height: 1.5;
             color: #667085;
         }
 
@@ -127,15 +127,15 @@
 
     small {
         font-size: 14px;
-        line-height: 20px;
-        color: $color-gray-400;
+        line-height: 1.43;
+        color: $color-gray-200;
     }
 
     .bottom {
         text-align: center;
 
         .title {
-            color: $color-gray-300;
+            color: $color-gray-100;
             margin-bottom: 33px;
         }
     }

@@ -10,8 +10,8 @@
     &-primary {
         background: $color-primary-500;
         box-shadow: $default-box-shadow;
-        border-radius: $border-radius-lg;
-        color: $color-primary-100;
+        border-radius: $border-radius-sm;
+        color: $color-light-300;
 
         &:hover {
             background: $color-primary-600;
@@ -20,11 +20,11 @@
     }
 
     &-secondary {
-        background: $color-white-900;
+        background: $color-light-100;
         box-shadow: $default-box-shadow;
-        border-radius: $border-radius-lg;
-        color: $color-gray-800;
-        border: 1px solid $color-gray-200;
+        border-radius: $border-radius-sm;
+        color: $color-gray-400;
+        border: 1px solid $color-light-400;
 
         &:hover {
             color: $color-primary-500;
@@ -35,19 +35,19 @@
     &-sm {
         padding: 8px 16px;
         font-size: 14px;
-        line-height: 20px;
+        line-height: 1.43;
     }
 
     &-md {
         padding: 11px 18px;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
     }
 
     &-lg {
         padding: 14px 28px;
         font-size: 18px;
-        line-height: 28px;
+        line-height: 1.55;
     }
 }
 

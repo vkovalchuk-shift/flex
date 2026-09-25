@@ -22,10 +22,14 @@
         .title {
             color: $color-primary-500;
             margin-bottom: 8px;
+
+            &-dark {
+                color: $color-gray-500;
+            }
         }
 
         .subtitle {
-            color: $color-gray-500;
+            color: $color-gray-300;
         }
     }
 }

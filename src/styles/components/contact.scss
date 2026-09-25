@@ -2,24 +2,24 @@
     padding: 64px 0;
     background: linear-gradient(
         to bottom,
-        $color-gray-100 0%,
-        $color-gray-100 calc(80% - 3px),
+        $color-light-200 0%,
+        $color-light-200 calc(80% - 3px),
         $color-primary-500 calc(80% - 3px),
         $color-primary-500 calc(80% + 3px),
-        $color-gray-900 calc(80% + 3px),
-        $color-gray-900 100%
+        $color-gray-500 calc(80% + 3px),
+        $color-gray-500 100%
     );
     text-align: center;
 
     @include media('min', 'sm') {
         background: linear-gradient(
             to bottom,
-            $color-gray-100 0%,
-            $color-gray-100 calc(63% - 3px),
+            $color-light-200 0%,
+            $color-light-200 calc(63% - 3px),
             $color-primary-500 calc(63% - 3px),
             $color-primary-500 calc(63% + 3px),
-            $color-gray-900 calc(63% + 3px),
-            $color-gray-900 100%
+            $color-gray-500 calc(63% + 3px),
+            $color-gray-500 100%
         );
     }
 
@@ -60,7 +60,7 @@
         }
 
         a {
-            color: $color-gray-500;
+            color: $color-gray-300;
             text-decoration: none;
             transition: $transition-default;
 
@@ -71,7 +71,7 @@
     }
     
     .map {
-        border-radius: $border-radius-lg;
+        border-radius: $border-radius-sm;
         aspect-ratio: 1;
         height: 100%;
 
