@@ -1,0 +1,105 @@
+.join {
+    padding: 64px 0;
+
+    @include media('min', 'lg') {
+        padding: 64px 0 227px 0;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: $base-gap;
+    }
+
+    .left {
+        padding: 0;
+        padding-right: 41px;
+
+        @include media('min', 'lg') {
+            padding: 105px 41px 0 0;
+        }
+
+
+        .badge {
+            margin-bottom: 17px;
+        }
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+
+    ul {
+        li {
+            font-size: 20px;
+            line-height: 30px;
+
+            &:not(:last-child) {
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .right {
+        text-align: center;
+
+        h4 {
+            margin-bottom: 16px;
+        }
+
+        .note {
+            font-weight: 500;
+            color: $color-gray-400;
+            margin-bottom: 26px;
+        }
+
+        .inner {
+            max-width: 358px;
+            margin: 0 auto;
+        }
+    }
+
+    form {
+        margin-bottom: 13px;
+
+        .form-holder {
+            margin-bottom: 14px;
+        }
+
+        label {
+            display: block;
+            color: $color-gray-500;
+            margin-bottom: 6px;
+            text-align: left;
+        }
+    }
+
+    span.h6 {
+        display: inline-block;
+        margin-bottom: 16px;
+        font-size: 12px;
+        line-height: 18px;
+        color: $color-gray-200;
+    }
+
+    .signin-options {
+        margin-bottom: 17px;
+
+        .btn {
+            &:not(:last-child) {
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .signin {
+        font-size: 14px;
+        line-height: 20px;
+        color: #8896AB;
+
+        a {
+            color: $color-primary-500;
+            text-decoration: none;
+        }
+    }
+}

@@ -21,7 +21,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  color: $color-gray-300;
+  color: $color-gray-400;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -62,17 +62,17 @@ img {
 }
 
 :root {
-  --section-heading-color: #{$color-gray-500};
-  --section-text-color: #{$color-gray-300};
+  --section-heading-color: #{$color-gray-600};
+  --section-text-color: #{$color-gray-400};
   --icon-box-color: #{$color-light-100};
-  --header-color: #{$color-gray-300};
+  --header-color: #{$color-gray-400};
   --logo-filter: none;
 }
 
 .dark-theme {
   --section-heading-color: #{$color-light-100};
   --section-text-color: #{$color-gray-200};
-  --icon-box-color: #{$color-gray-500};
+  --icon-box-color: #{$color-gray-600};
   --header-color: #{$color-light-100};
   --logo-filter: brightness(0) saturate(100%)
          invert(62%) sepia(89%)
@@ -82,6 +82,6 @@ img {
          contrast(91%);
   
   &:not(header) {
-    background-color: $color-gray-500;
+    background-color: $color-gray-600;
   }
 }

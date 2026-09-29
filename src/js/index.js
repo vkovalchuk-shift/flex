@@ -1,6 +1,8 @@
 import "../styles/main.scss";
 
 document.addEventListener('DOMContentLoaded', function () {
+    AOS.init();
+    
     const header = document.querySelector('header');
     const menuTriggers = document.querySelectorAll('#btn-menu, nav li a');
 

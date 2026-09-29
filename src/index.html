@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
     <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+    />
   </head>
 
   <body>
@@ -57,7 +61,7 @@
       </div>
     </header>
     <main>
-      <section id="hero" class="hero">
+      <section id="hero" class="hero" data-aos="fade-up">
         <div class="container">
           <div class="top dark-theme">
             <img class="decor decor-1" src="./assets/images/decoration/cuttet-circles.webp" alt="Cutted Circles Decoration">
@@ -75,7 +79,13 @@
               <form>
                 <div class="form-holder">
                   <span class="icon">mail</span>
-                  <input type="email" name="email" id="emailAddress" placeholder="Enter your work email">
+                  <input 
+                    type="email" 
+                    name="email" 
+                    id="emailAddress" 
+                    placeholder="Enter your work email"
+                    class="input-lg"
+                  >
                 </div>
   
                 <button class="btn btn-primary btn-lg">Get early access</button>
@@ -109,7 +119,7 @@
           </div>
         </div>
       </section>
-      <section id="insights" class="insights">
+      <section id="insights" class="insights" data-aos="fade-up">
         <div class="container">
           <span class="badge badge-secondary">FEATURES</span>
           <h3>Gain more insight into how people use your</h3>
@@ -175,7 +185,7 @@
           </div>
         </div>
       </section>
-      <section id="about" class="about">
+      <section id="about" class="about" data-aos="fade-left">
         <div class="container">
           <div class="inner dark-theme">
             <div class="info">
@@ -191,7 +201,7 @@
           </div>
         </div>
       </section>
-      <section id="features" class="features">
+      <section id="features" class="features" data-aos="fade-right">
         <div class="container">
           <div class="top">
             <span class="badge badge-secondary">FEATURES</span>
@@ -266,7 +276,7 @@
           </div>
         </div>
       </section>
-      <section id="numbers" class="numbers">
+      <section id="numbers" class="numbers" data-aos="fade-up">
         <div class="container">
           <span class="badge badge-secondary">NUMBERS</span>
           <h2>We believe in the power of data</h2>
@@ -294,7 +304,7 @@
           </ul>
         </div>
       </section>
-      <section id="how-it-works" class="how-it-works">
+      <section id="how-it-works" class="how-it-works" data-aos="fade-up">
         <img class="decor decor-top" src="./assets/images/bg-waves.svg" alt="Wave">
         <div class="inner dark-theme">
           <div class="container">
@@ -375,7 +385,7 @@
         </div>
         <img class="decor decor-bottom" src="./assets/images/bg-waves.svg" alt="Wave">
       </section>
-      <section id="application" class="application">
+      <section id="application" class="application" data-aos="fade-up">
         <div class="container container-sm">
           <span class="badge badge-secondary">Application</span>
           <h3>Great work starts with your app</h3>
@@ -390,7 +400,7 @@
           </div>
         </div>
       </section>
-      <section id="contact" class="contact">
+      <section id="contact" class="contact" data-aos="fade-up">
         <div class="container">
           <span class="badge badge-secondary">CONTACT</span>
           <h2>Let’s stay connected</h2>
@@ -491,5 +501,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>

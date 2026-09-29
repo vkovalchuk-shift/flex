@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
     <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+    />
   </head>
 
   <body>
@@ -57,7 +61,66 @@
       </div>
     </header>
     <main>
-      <section id="numbers" class="numbers">
+      <section id="join" class="join" data-aos="fade-up">
+        <div class="container">
+          <div class="left">
+            <span class="badge badge-primary">HEADER</span>
+            <h1>A small business is only as good as its tools. </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisng.</p>
+            <ul class="base-list">
+              <li>
+                Mauris pellentesque congue libero nec
+              </li>
+              <li>
+                Suspendisse mollis tincidunt
+              </li>
+              <li>
+                Praesent varius justo vel justo pulvinar 
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <div class="inner">
+              <div class="icon-box icon-box-square icon-box-lg">
+                <span class="icon">lightstrip</span>
+              </div>
+              <h4>Join our community</h4>
+              <div class="note h6">Start your free trial</div>
+              <form>
+                <div class="form-holder">
+                  <label for="emailAddress">Email</label>
+                  <input 
+                    type="email" 
+                    name="email" 
+                    id="emailAddress" 
+                    placeholder="Enter your email address"
+                    class="input-sm"
+                  >
+                </div>
+  
+                <button class="btn btn-primary btn-md btn-stretch">Get Started</button>
+              </form>
+              <span class="h6">OR</span>
+              <div class="signin-options">
+                <button class="btn btn-secondary btn-md btn-stretch">
+                  <img src="./assets/images/social-icons/google-sign-in.svg" alt="Sign in with Google">
+                  Sign in with Google
+                </button>
+                <button class="btn btn-secondary btn-md btn-stretch">
+                  <img src="./assets/images/social-icons/facebook-sign-in.svg" alt="Sign in with Facebook">
+                  Sign in with Google
+                </button>
+                <button class="btn btn-secondary btn-md btn-stretch">
+                  <img src="./assets/images/social-icons/apple-sign-in.svg" alt="Sign in with Apple">
+                  Sign in with Google
+                </button>
+              </div>
+              <div class="signin">Already have an account? <a href="#">Sign In</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="numbers" class="numbers" data-aos="fade-up">
         <div class="container">
           <span class="badge badge-secondary">NUMBERS</span>
           <h2>We believe in the power of data</h2>
@@ -85,7 +148,7 @@
           </ul>
         </div>
       </section>
-      <section id="insights" class="insights">
+      <section id="insights" class="insights" data-aos="fade-left">
         <div class="container">
           <span class="badge badge-secondary">FEATURES</span>
           <h3>Gain more insight into how people use your</h3>
@@ -130,7 +193,94 @@
           </div>
         </div>
       </section>
-      <section id="about" class="about">
+      <section id="pricing" class="pricing" data-aos="fade-right">
+        <div class="container">
+          <span class="badge badge-secondary">PRICING</span>
+          <h2>Flexible pricing plan for your startup</h2>
+          <p>Pricing that scales with your business immediately.</p>
+          <div class="plans">
+            <div class="item">
+              <div class="head">
+                <span class="badge badge-secondary">PRICING</span>
+                <div class="name p">Basic Plan</div>
+                <div class="price h2">
+                  10 <span class="h4">/mth</span>
+                </div>
+                <div class="interval p">Billed annually</div>
+              </div>
+              <ul class="base-list">
+                <li>
+                  Complete documentation
+                </li>
+                <li>
+                  Working materials in Figma
+                </li>
+                <li>
+                  100GB cloud storage
+                </li>
+                <li>
+                  500 team members
+                </li>
+              </ul>
+
+              <button class="btn btn-primary btn-md btn-stretch">Request a Demo</button>
+            </div>
+            <div class="item">
+              <div class="head">
+                <span class="badge badge-secondary">PRICING</span>
+                <div class="name p">Freelancer Plan</div>
+                <div class="price h2">
+                  99 <span class="h4">/mth</span>
+                </div>
+                <div class="interval p">Billed annually</div>
+              </div>
+              <ul class="base-list">
+                <li>
+                  Complete documentation
+                </li>
+                <li>
+                  Working materials in Figma
+                </li>
+                <li>
+                  100GB cloud storage
+                </li>
+                <li>
+                  500 team members
+                </li>
+              </ul>
+
+              <button class="btn btn-primary btn-md btn-stretch">Request a Demo</button>
+            </div>
+            <div class="item">
+              <div class="head">
+                <span class="badge badge-secondary">PRICING</span>
+                <div class="name p">Enterprise Plan</div>
+                <div class="price h2">
+                  799/year
+                </div>
+                <div class="interval p">Billed annually</div>
+              </div>
+              <ul class="base-list">
+                <li>
+                  Complete documentation
+                </li>
+                <li>
+                  Working materials in Figma
+                </li>
+                <li>
+                  100GB cloud storage
+                </li>
+                <li>
+                  500 team members
+                </li>
+              </ul>
+
+              <button class="btn btn-primary btn-md btn-stretch">Request a Demo</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about" data-aos="fade-up">
         <div class="container">
           <div class="inner dark-theme">
             <div class="info">
@@ -146,7 +296,7 @@
           </div>
         </div>
       </section>
-      <section id="how-it-works" class="how-it-works">
+      <section id="how-it-works" class="how-it-works" data-aos="fade-up">
         <div class="inner">
           <div class="container">
             <div class="top">
@@ -264,5 +414,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>

@@ -7,7 +7,8 @@ button {
 }
 
 .btn {
-    display: inline-block;
+    @include flex-center;
+    gap: 8px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -22,7 +23,7 @@ button {
         color: $color-light-300;
 
         &:hover {
-            background: $color-primary-600;
+            background: $color-primary-700;
             transform: translateY(-1px);
         }
     }
@@ -31,7 +32,7 @@ button {
         background: $color-light-100;
         box-shadow: $default-box-shadow;
         border-radius: $border-radius-sm;
-        color: $color-gray-400;
+        color: $color-gray-500;
         border: 1px solid $color-light-400;
 
         &:hover {
@@ -56,6 +57,16 @@ button {
         padding: 14px 28px;
         font-size: 18px;
         line-height: 1.55;
+    }
+
+    &-stretch {
+        width: 100%;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
     }
 }
 

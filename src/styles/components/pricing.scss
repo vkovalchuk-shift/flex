@@ -1,0 +1,56 @@
+.pricing {
+    padding: 64px 0;
+
+    @include media('min', 'lg') {
+        padding: 180px 0 100px 0;
+    }
+
+    p {
+        margin-bottom: 62px;
+    }
+
+    .plans {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: $base-gap;
+    }
+
+    .item {
+        padding: 40px 32px 32px;
+
+        .head {
+            text-align: center;
+        }
+
+        .badge {
+            margin-bottom: 24px;
+        }
+
+        .name {
+            color: $color-primary-500;
+            margin-bottom: 16px;
+        }
+
+        .price {
+            font-weight: 500;
+            display: flex;
+            gap: 6px;
+            justify-content: center;
+
+            &:before {
+                content: '$';
+                font-size: 24px;
+                line-height: 32px;
+            }
+
+            span {
+                align-self: flex-end;
+            }
+        }
+
+        .interval {
+            color: $color-gray-200;
+            margin-bottom: 27px;
+        }
+    }
+}
